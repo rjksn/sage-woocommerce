@@ -38,6 +38,7 @@ if (defined('WC_ABSPATH')) {
             }, []);
 
             echo view($view, $data)->render();
+            return false;
         }
 
         return $template;
